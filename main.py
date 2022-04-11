@@ -11,5 +11,5 @@ hitung = st.button("Hitung Luas")
 
 if hitung:
     luas = alas * tinggi / 2
-    st.snow()
+    st.balloons()
     st.success(f"Luas Segitiga adalah {luas}")
