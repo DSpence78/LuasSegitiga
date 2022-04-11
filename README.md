@@ -1,2 +1,2 @@
 # LuasSegitiga
-Just try Streamlit
+Just to try Streamlit
