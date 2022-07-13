@@ -5,11 +5,11 @@ st.write("""
 Program aplikasi sederhana untuk menghitung luas segitiga menggunakan Streamlit
 """)
 
-alas = st.number_input("Masukkan Alas", 0)
-tinggi = st.number_input("Masukkan Tinggi", 0)
+alas = float(st.text_input("Masukkan Alas", 0))
+tinggi = float(st.text_input("Masukkan Tinggi", 0))
 hitung = st.button("Hitung Luas")
 
 if hitung:
     luas = alas * tinggi / 2
     st.balloons()
-    st.success(f"Luas Segitiga adalah {luas}")
+    st.success("Luas Segitiga adalah %.3f" % luas)
